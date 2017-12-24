@@ -1,4 +1,4 @@
-#
+# Monitoring Suhu Tegangan dan Arus
 Input Sensor:
 1. Sensor Suhu     : DS18B20
 2. Sensor Tegangan : Konsep pembagi tegangan modul, http://hobbycomponents.com/sensors/389-25v-voltage-sensor-module
