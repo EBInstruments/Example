@@ -115,17 +115,8 @@ void setup() {
   lcd.begin();
   // Turn on the blacklight and print a message.
   lcd.backlight();
-  lcd.print("     POLTEK");
-  lcd.setCursor(0, 1);
-  lcd.print("   BALIKPAPAN");
-  delay(1000);
+  lcd.print("Monitoring System");
   lcd.clear();
-  lcd.print("     TEKNIK");
-  lcd.setCursor(0, 1);
-  lcd.print("MESIN-ALAT BERAT");
-  delay(2000);
-  lcd.clear();
-  
   lcd.print("OK");
 
   output.data[relay] = on;
